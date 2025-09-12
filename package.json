@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/andreyhitoshi1997/node-clean-api#readme",
   "dependencies": {
+
+  },
+  "devDependencies": {
     "eslint-config-standard-with-typescript": "^43.0.1",
-    "git-commit-msg-linter": "^5.0.8"
+    "git-commit-msg-linter": "^5.0.8",  
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6"
   }
 }
