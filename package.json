@@ -25,11 +25,15 @@
   "homepage": "https://github.com/andreyhitoshi1997/node-clean-api#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@types/validator": "^13.15.3",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.7",
     "jest": "^30.1.3",
     "lint-staged": "^16.1.6",
     "ts-jest": "^29.4.1"
+  },
+  "dependencies": {
+    "validator": "^13.15.15"
   }
 }
