@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/andreyhitoshi1997/node-clean-api#readme",
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/jest": "^30.0.0",
     "@types/validator": "^13.15.3",
     "eslint-config-standard-with-typescript": "^43.0.1",
@@ -34,6 +35,7 @@
     "ts-jest": "^29.4.1"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "validator": "^13.15.15"
   }
 }
