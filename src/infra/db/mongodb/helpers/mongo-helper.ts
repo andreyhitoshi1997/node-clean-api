@@ -26,5 +26,5 @@ export const MongoHelper = {
       email: collectionWithouthId.email,
       password: collectionWithouthId.password,
     };
-  }
+  },
 };
