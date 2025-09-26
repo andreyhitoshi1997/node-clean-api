@@ -3,7 +3,6 @@ import { AccountMongoRepository } from "./account";
 
 describe("Account Mongo Repository", () => {
   beforeAll(async () => {
-    // Use the MongoDB URI provided by jest-mongodb
     const mongoUri = process.env.MONGO_URL || global.__MONGO_URI__;
     if (!mongoUri) {
       throw new Error("No MongoDB URI available for testing");
