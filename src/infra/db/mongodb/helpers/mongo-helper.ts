@@ -3,8 +3,11 @@ import { AccountModel } from "../../../../domain/models/account";
 
 export const MongoHelper = {
   client: null as MongoClient,
+
   async connect(uri: string): Promise<void> {
+    console.log(`Attempting to connect to MongoDB at: ${uri}`);
     this.client = await MongoClient.connect(uri);
+    console.log('MongoDB connected successfully!');
   },
 
   async disconnect(): Promise<void> {
